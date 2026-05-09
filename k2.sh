@@ -78,7 +78,7 @@ EOF
 echo "[3/4] 应用 sysctl 配置..."
 
 # 统一加载所有 sysctl（推荐方式）
-sysctl --system
+sysctl -p && sysctl --system
 
 echo "[4/4] 强制确保 BBR 生效..."
 
