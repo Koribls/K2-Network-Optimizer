@@ -28,8 +28,8 @@
 以 root 身份登录目标 VPS 后执行：
 
 ```bash
-git clone https://github.com/<Koribls>/<K2-Network-Optimizer>.git
-cd <K2-Network-Optimizer>
+git clone https://github.com/Koribls/K2-Network-Optimizer.git
+cd K2-Network-Optimizer
 chmod +x k2_tcp_tune.sh
 ./k2_tcp_tune.sh
 ```
